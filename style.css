@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+}
+
+.main {
+
+margin-left: 250px;
+margin-right: 150px;
+margin-top: 150px;
+margin-bottom: 250px;
+background-color: white;
+    
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    border: none;
+    background: #EFEFEF;
+    
+
+}
+
+form input {
+    width: 500px;
+    
+}
+
+form button{
+    color: white;
+    background: #F84343;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.button {
+    padding: 0.3rem;
+    width: 70%;
+    border: 1px solid gray;
+    
+    
+    
+}
+.button:hover {
+
+    background-color: #F84343;
+    color: white;
+}
+.photo-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.product-text {
+    margin-left: 10px;
+}
+.hech {
+    margin-left: 10px;
+}
+.tablink {
+    color: black;
+    background-color: white;
+    font-size: 0.7rem;
+    border: none;
+    /*margin-left: 250px;*/
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tablink:hover {
+    color: #F84343;
+    text-decoration: underline;
+}
+/*.tablink:active {
+    color: #F84343;
+    text-decoration: underline;
+}*/
+.tablink:focus {
+    color: #F84343;
+    text-decoration: underline;
+}
+
+.tabs {
+    margin-left: 248px;
+}
+.ksh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabcontent {
+    display: none;
+}
+  
+.footer {
+      margin-left: 10px;
+}
+.pia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*margin: 0 auto;*/
+    margin-right: 50px;
+}
+
+.pea {
+  margin-right: 50px;
+}
+
+  
